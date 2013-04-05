@@ -16,9 +16,32 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  api_key: o1yf9WMdgd8dp_OGkmtXESCOJFostN8N1jI1AFKY2i0kJ1QFNMOs3a6R5qUoBIqF
+  authorize: true
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.5b1.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>  
+
+<script type="text/javascript">
+
+function loadData() {
+IN.API.Profile("me")
+   .result(function(result) { 
+      $("#profile").html('<script type="IN/FullMemberProfile" data-id="' + result.values[0].id + '"></script>');
+      IN.parse(document.getElementById("profile"))
+   })
+}
+
+</script>
+
+  
 </head>
 
-<body>
+
+<body class="yui3-skin-sam     yui-skin-sam">
+
 
   <div class="wrapper">
     <header>
@@ -33,10 +56,17 @@
           <a href="https://github.com/MEDBEDb/MEDBEDb.github.io/zipball/master" class="download-button zip"><span>Download</span></a>
           <a href="https://github.com/MEDBEDb/MEDBEDb.github.io" class="code">View Medbedb.github.io on GitHub</a>
         </div>
+
+
+
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
           <h3>Welcome to GitHub Pages.</h3>
+
+
+<div id="profile"></div>
+<script type="IN/Login" data-onAuth="loadData"></script>
 
 <h1>My Projects::</h1>
 

@@ -15,3 +15,6 @@ The following directories and their contents are Copyright Corey Donohoe. You ma
 _posts/
 images/
 All other directories and files are MIT Licensed.
+
+SRC:https://github.com/atmos/atmos.github.io
+tbu

@@ -1,4 +1,4 @@
 MEDBEDb.github.io
 =================
 
-Pages Test
+http://medbedb.github.io/MEDBEDb.github.io/

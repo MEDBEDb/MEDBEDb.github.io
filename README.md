@@ -3,8 +3,6 @@ MEDBEDb.github.io
 
 http://medbedb.github.io/MEDBEDb.github.io/
 
-http://medbedb.github.io/MEDBEDb/
-
 
 This is the data for my personal website
 This is the combination of two older blog dumps that I have from 2000 - 2009. all of my wordpress.org posts combined!

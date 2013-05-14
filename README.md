@@ -1,7 +1,7 @@
 MEDBEDb.github.io
 =================
 
-http://medbedb.github.io/MEDBEDb.github.io/
+http://MEDBEDb.github.io/
 
 
 This is the data for my personal website
